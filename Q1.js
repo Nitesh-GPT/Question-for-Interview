@@ -1,13 +1,14 @@
-#WAP to find the max number IN the given array array;
+//WAP to find the max number iN the given  array;
 
 
-let arrayA = [1,4,53,6,5,77,22,33];
+let arrayA = [1, 4, 53, 6, 5, 77, 22, 33];
 
 let MAXValue = arrayA[0];
 
-for (i=0; i<arrayA.length; i++); {
-    if (arrayA[i] > MAXValue); {
-        arrayA[i] = MAXValue;
+for (i = 1; i < arrayA.length; i++) {
+    if (arrayA[i] > MAXValue) {
+
+       MAXValue = arrayA[i] ;
     }
 }
 console.log(MAXValue);
