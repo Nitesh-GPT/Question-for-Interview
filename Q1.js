@@ -5,7 +5,7 @@ let arrayA = [1, 4, 53, 6, 5, 77, 22, 33];
 
 let MAXValue = arrayA[0];
 
-for (i = 1; i < arrayA.length; i++) {
+for (let i = 1; i < arrayA.length; i++) {
     if (arrayA[i] > MAXValue) {
 
        MAXValue = arrayA[i] ;
