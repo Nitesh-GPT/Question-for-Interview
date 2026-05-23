@@ -1,4 +1,6 @@
-//Recursion function
+//Recursion function,  allows you to call a function repeatedly
+//  until a base-case is reached. Unlike a traditional loop, recursion
+//  allows you to handle something with an unknown depth,
 const recurionCallFun = (number) =>{
     if(number<1){
         return;
