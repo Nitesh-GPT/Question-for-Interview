@@ -1,4 +1,4 @@
-//Frequence counter program
+//Frequence counter program for string
 
 let alfa = "nitesh gupta";
 let objct = {};
