@@ -9,3 +9,4 @@ for (let i=1; i<arr.length; i++){
 }
 arr[arr.length-1]=temp;
 console.log(arr);
+//output = [2,3,4,5,6,1]
